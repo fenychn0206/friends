@@ -1,7 +1,7 @@
 [
   {
-    "class_name": "B1 - 技术支持",
-    "class_desc": "为本站开发与建设提供帮助的朋友们",
+    "class_name": "推荐站点",
+    "class_desc": "博主常去的地方，里面全是干货",
     "link_list": [
       {
         "name": "Hexo",
@@ -12,8 +12,8 @@
     ]
   },
   {
-    "class_name": "LG - 推荐站点",
-    "class_desc": "博主常去的地方，欢迎去看看",
+    "class_name": "互联网的大小星球",
+    "class_desc": "世界这么大，为什么不去看看",
     "link_list": [
       {
         "name": "Youtube",
@@ -32,18 +32,6 @@
         "link": "https://twitter.com/",
         "avatar": "https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png",
         "descr": "社交分享平台"
-      }
-    ]
-  },
-  {
-    "class_name": "L1 - 来自这个互联网",
-    "class_desc": "世界这么大，一定还有你不知道的",
-    "link_list": [
-      {
-        "name": "Bili",
-        "link": "https://www.cccccc.com/",
-        "avatar": "https://i.loccccc.com/kGg8v3azHJfM1.png",
-        "descr": "视频网站"
       }
     ]
   }

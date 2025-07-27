@@ -1,0 +1,36 @@
+name: 提交您的友链信息
+description: 请先阅读自述文件后按照issues模板填写即可添加
+title: "add：[站点名称]"
+labels: ["add"]
+assignees: ["fenychn0206"]
+body:
+  - type: checkboxes
+    id: pre-check
+    attributes:
+      label: 交换前请检查
+      description: 请确保确认后，再提交 Issue
+      options:
+        - label: "已经阅读 `README.md`，或 [友链页](https://blog.ohdragonboi.cn/friends/) 的信息"
+        - label: "您的站点类型为 `博客`"
+        - label: "网站域名为 [Public Suffix List](https://publicsuffix.org/list/) 所展示出的域名"
+        - label: "网站内容符合国家规定，文章数量至少有 15 篇"
+  - type: textarea
+    id: name
+    attributes:
+      label: 友链信息
+      description: 请更改下方引号内的中文内容为你自己的资料，请勿更改内部格式，请勿添加多余内容
+      value: |
+        ```json
+        {
+          title: "您的站点名称",
+          imgurl: "您的站点头像，请缩小头像大小以保证加载速度",
+          desc: "站点描述",
+          siteurl: "站点地址",
+          tags: ["站点分类，技术/生活二选一"],
+        },
+        ```
+  - type: textarea
+    id: friends-link
+    attributes:
+      label: "站点友链地址"
+      placeholder: "请填写在哪一个页面可以看到您所添加的友链"
